@@ -21,6 +21,6 @@ public class abcController {
     public ResponseEntity<Integer> abcxyzpost(){
         System.out.println("we were here post");
         Integer output = abcModel.output();
-        return new ResponseEntity<Integer>(output, HttpStatus.CREATED);
+        return new ResponseEntity<Integer>(output, HttpStatus.OK);
     }
 }
